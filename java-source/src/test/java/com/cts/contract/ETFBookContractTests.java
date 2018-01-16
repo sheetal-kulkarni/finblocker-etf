@@ -1,6 +1,6 @@
-package com.example.contract;
+package com.cts.contract;
 
-import com.example.state.IOUState;
+import com.cts.state.ETFBookState;
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.Iterables;
 import net.corda.core.identity.Party;
@@ -14,7 +14,7 @@ import static com.example.contract.IOUContract.IOU_CONTRACT_ID;
 import static net.corda.testing.CoreTestUtils.*;
 import static net.corda.testing.NodeTestUtils.ledger;
 
-public class IOUContractTests {
+public class ETFBookContractTests {
     static private final Party miniCorp = getMINI_CORP();
     static private final Party megaCorp = getMEGA_CORP();
     static private final PublicKey[] keys = Iterables.toArray(ImmutableList.of(getMEGA_CORP_PUBKEY(), getMINI_CORP_PUBKEY()), PublicKey.class);

@@ -1,6 +1,6 @@
-package com.example.flow;
+package com.cts.flow;
 
-import com.example.state.IOUState;
+import com.cts.state.ETFBookState;
 import com.google.common.collect.ImmutableList;
 import net.corda.core.concurrent.CordaFuture;
 import net.corda.core.contracts.ContractState;
@@ -25,7 +25,7 @@ import static net.corda.testing.CoreTestUtils.unsetCordappPackages;
 import static org.hamcrest.CoreMatchers.instanceOf;
 import static org.junit.Assert.assertEquals;
 
-public class IOUFlowTests {
+public class ETFBookFlowTests {
     private MockNetwork network;
     private StartedNode<MockNode> a;
     private StartedNode<MockNode> b;
